@@ -1,0 +1,118 @@
+*,* ::before,* ::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-weight: inherit;
+}
+body{
+  text-align: center;
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outline";
+
+}
+.wholePart{
+  height: 500px;
+  width: 430px;
+  
+  height:500px;
+  width: 350px;
+  border-radius: 10px;
+background-color: hsl(215, 32%, 27%);
+
+
+ 
+}
+.card{
+  width: 350px;
+  background-color:hsl(215, 68%, 18%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+ 
+  
+}
+.card-img-top{
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+  display: block;
+}
+
+.card-body{
+  text-align: left;
+  width: 300px;
+}
+.card-title{
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  line-height: 2;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-top: 10px;
+
+}
+.nft-first{
+  margin-bottom: 1rem;
+}
+.nft-one{
+  color: hsl(178, 100%, 50%);
+  display: inline;
+  padding-left: 5px;
+}
+
+.nft-two{
+ margin-left: 6rem;
+  display: inline;
+  color:  hsl(215, 51%, 70%);
+}
+.nft-second{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 15px;
+ 
+}
+.nft-photo{
+  width: 30px;
+  border-radius: 40px;
+  outline: 1px solid white;
+}
+.card-text{
+  color:  hsl(215, 51%, 70%);
+  margin-bottom: 20px;
+  line-height: 1.5;
+  
+}
+.nft-text{
+  color:  hsl(215, 51%, 70%);
+  margin-left: 20px;
+}
+hr{
+  height: 1px;
+  border-top: none;
+  color: grey;
+}
+.name{
+  color: hsl(0, 0%, 100%);
+  margin-left: 1px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
